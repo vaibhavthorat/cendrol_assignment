@@ -1,0 +1,74 @@
+
+.container{
+  width:250px;
+  height: 250px;
+  border-radius: 10px;
+  background-color:#f0eded;
+  position: absolute;
+  
+  left: calc(50% - 125px);
+  top: calc(30% - 125px);
+}
+.circle{
+  position: relative;
+  left: calc(50% - 75px);
+  top: calc(50% - 75px);
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 191, 0);
+  border-radius: 50%;
+
+}
+.circle h1{
+  margin: 0;
+  position: relative;
+  top: 20%;
+  text-align: center;
+  font-size: 45px;
+}
+.circle button{
+  border: 0;
+  position: relative;
+  top: 15%;
+  left: 5%;
+  background-color: rgb(255, 191, 0);
+  font-weight: 700;
+  font-size: 10px;
+  text-align: center;
+}
+.circle button:hover{
+  cursor: pointer;
+  border: 0;
+}
+.button-div button{
+  position: absolute;
+  left: calc(50% - 50px);
+  top: 55%;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(3, 191, 204);
+  box-shadow: 0px 5px 30px rgba(47, 47, 48, 0.4);
+}
+.button-div2 button{
+  position: absolute;
+  left: calc(50% - 50px);
+  top: 65%;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(3, 191, 204);
+  box-shadow: 0px 5px 30px rgba(47, 47, 48, 0.4);
+}
+.button-div3 button{
+  position: absolute;
+  left: calc(50% - 50px);
+  top: 75%;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0px 5px 30px rgba(47, 47, 48, 0.4);
+}
